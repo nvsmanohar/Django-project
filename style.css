@@ -1,0 +1,70 @@
+.navbanner{
+    z-index: 999;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1%;
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.3);
+}
+
+.navlinks{
+background-color: white;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+width: 30%;
+
+}
+
+.navlinks li{
+    list-style: none;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 10%;
+    /* background-color: rgb(204, 195, 195); */
+    padding: 1%;
+    font-size: 14px;
+}
+.navlinks li a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.Auth{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    width: 11%;
+    justify-content: space-between;
+    margin-right: 2%;
+    }
+    
+.Auth li{
+    list-style: none;
+    text-decoration: none;
+    padding: 2%;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 10%;
+    box-shadow:  1px 1px 1px 1px rgba(0,0,0,0.3);
+    }
+.Auth li a{
+    text-decoration: none;
+    color: black;
+    }
+
+.navlinks li a:hover{
+    font-size: 16px;
+}
+
+.Auth li:hover{
+    padding: 3%;
+}
+
+.mainbody{
+    background-color: pink;
+    height: 100%;
+    width: 100%;
+}
